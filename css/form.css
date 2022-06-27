@@ -1,0 +1,51 @@
+.form__input {
+  margin-bottom: 8px;
+}
+.form__button {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  background-color: #0195f6;
+  color: #fff;
+  margin: 8px 0 20px;
+}
+.form__separator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #8e8e8e;
+}
+.form__separator::before,
+.form__separator::after {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+.form__facebook {
+  color: #485f8f;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.form__facebook::before {
+  content: "";
+  background: url(../img/facebook.svg) no-repeat center center;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 4px;
+}
+.form__forgot {
+  display: block;
+  color: #00376b;
+  font-size: 12px;
+  text-align: center;
+}
